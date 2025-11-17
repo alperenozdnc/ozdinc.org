@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #fcf7d9;
+}
+
+a {
+    color: #8388ad;
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    padding-inline: 3px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #626682;
+    text-decoration: underline;
+}
+
+* {
+    color: #2d2c26;
+}

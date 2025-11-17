@@ -1,0 +1,7 @@
+p {
+    line-height: 2rem;
+}
+
+p~p {
+    margin-top: 40px;
+}

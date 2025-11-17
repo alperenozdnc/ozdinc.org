@@ -1,0 +1,13 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-block: 10px;
+}
+
+p {
+  font-size: 18px;
+}
