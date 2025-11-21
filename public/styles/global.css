@@ -23,6 +23,10 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+    body {
+        width: 80vw;
+    }
+
     br {
         display: none;
     }
