@@ -1,18 +1,23 @@
 nav {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  user-select: none;
 }
 
 ul {
-    display: flex;
-    align-self: start;
-    list-style-type: none;
-    padding-left: 0;
+  display: flex;
+  align-self: start;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 li {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 nav a {
-    font-size: 18px;
+  font-size: 18px;
+}
+
+#theme-switcher-button:hover {
+  cursor: pointer;
 }

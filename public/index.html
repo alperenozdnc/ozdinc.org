@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet" />
-    <link href="/styles/global.css" rel="stylesheet" />
+    <link href="/styles/global.css" rel="stylesheet" id="globalCSS" />
     <link href="/styles/typography.css" rel="stylesheet" />
     <link href="/styles/navigation.css" rel="stylesheet" />
-    <link href="/styles/quote.css" rel="stylesheet" />
+    <link href="/styles/quote.css" rel="stylesheet" id="quoteCSS" />
     <link href="/styles/index.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="/img/pfp.png">
+    <link rel="icon" type="image/x-icon" href="/img/pfp.png" />
 </head>
 
 <body>
@@ -32,6 +32,10 @@
 
             <li>
                 <a href="/contact/">contact/</a>
+            </li>
+
+            <li id="theme-switcher">
+                <a id="theme-switcher-button">my eyes hurt/</a>
             </li>
         </ul>
     </nav>
@@ -59,6 +63,8 @@
         the end, you may achieve your goal, but you are left sleepless, with torn
         out hair, missing 2 days worth of food, wondering why you're even alive.
     </q>
+
+    <script src="/scripts/theme.js"></script>
 </body>
 
 </html>
